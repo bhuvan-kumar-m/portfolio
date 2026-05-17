@@ -221,3 +221,107 @@ font-size:1.2rem;
 }
 
 }
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 1024px){
+
+    .hero h1{
+        font-size:3.5rem;
+    }
+
+    .card{
+        padding:40px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+        padding:20px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .hero{
+        padding-top:180px;
+    }
+
+    .hero h1{
+        font-size:2.5rem;
+        text-align:center;
+    }
+
+    .hero h2{
+        font-size:1.2rem;
+        text-align:center;
+    }
+
+    .card{
+        width:95%;
+        padding:30px;
+    }
+
+    .section{
+        padding:120px 20px 60px;
+    }
+
+    .section-title h1{
+        font-size:2rem;
+    }
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    .timeline{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .timeline-item{
+        width:100%;
+        text-align:center;
+    }
+
+    .quote{
+        font-size:1.2rem;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    .hero h1{
+        font-size:2rem;
+    }
+
+    .hero h2{
+        font-size:1rem;
+    }
+
+    .logo{
+        font-size:1.2rem;
+    }
+
+    .nav-links{
+        font-size:0.9rem;
+    }
+
+    .card{
+        padding:20px;
+    }
+
+    .section-title h1{
+        font-size:1.6rem;
+    }
+
+}
